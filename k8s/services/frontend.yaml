@@ -17,7 +17,7 @@ apiVersion: v1
 metadata:
   name: gceme-frontend
 spec:
-  type: LoadBalancer
+  type: NodeType
   ports:
   - name: http
     port: 80
