@@ -17,7 +17,7 @@ apiVersion: v1
 metadata:
   name: gceme-frontend
 spec:
-  type: NodeType
+  type: NodePort
   ports:
   - name: http
     port: 80

@@ -12,4 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM golang:1.8.3-onbuild
+FROM maven:3.3.9-jdk-8-alpine
+
+COPY settings.xml /root/.m2/
